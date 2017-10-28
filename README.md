@@ -4,30 +4,24 @@
 # amibeenhacked.sh
 display the number of attempt that hacker are doing to brake into the ssh
 
- Directory_easy_encrypter
-=============
-
-
-# R_isPrimes_Function
-Function that detectis primes Number, Fibonacci and such staff
 ```
 ```
 
 
-monitorip.sh is a homemade script for watching uTorrent application people IP /country and other information.
+amibeenhacked.sh is a homemade script for watching uTorrent application people IP /country and other information.
 it can alert if a specific IP is sharing things with you  
 
 ![Monitoip](http://a3.mzstatic.com/eu/r30/Purple3/v4/2e/7d/98/2e7d9859-8f89-cdbf-6b71-d81aa30aec19/icon175x175.png)
 
 Underconstruction ================================================
 
-uTorrentIPmonitor.sh 
+amibeenhacked.sh
 
 
 
 Versions
 --------
-uTorrentIPmonitor 1.0.1
+amibeenhacked.sh 1.0.1
 
 
 Requirement
