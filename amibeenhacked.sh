@@ -6,3 +6,6 @@ for ip in $(cat /var/log/audit/audit.log | grep "/usr/sbin/sshd" | grep "success
     country=$(whois $ip  | grep -m 1 country | cut -d ':' -f2 | tr -d '[[:space:]]' )
     belongto=$(whois $ip  | grep -m 1  descr  | cut -d ':' -f2); echo "$tentative $country  $ip $belongto"
   done  | sort -n -k1
+
+# OPEN BSD FIREWALL get blocked traffic
+cat /var/log/pf.log | grep block | awk '{print $9}' | sort  | uniq -c | sort -rn | head
